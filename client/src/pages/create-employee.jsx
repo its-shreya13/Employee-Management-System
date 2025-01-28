@@ -66,8 +66,7 @@ export default function CreateEmployee() {
       }
 
       const result = await response.json();
-      console.log(result);
-
+      
       reset({
         empId: "",
         firstName: "",

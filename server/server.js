@@ -32,8 +32,8 @@ const generateJWTSecret = () => {
    return crypto.randomBytes(64).toString('hex');
  };
  
- //const secret = generateJWTSecret(); 
- //console.log(`JWT Secret: ${secret}`);
+ const secret = generateJWTSecret(); 
+ console.log(`JWT Secret: ${secret}`);
  
 
 
